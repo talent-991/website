@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <form>
+      <label for="firstName">First name</label>
+      <input size="40" type="text" name="firstName" id="firstName" /><br />
+      <label for="lastName">Last name</label>
+      <input
+        maxlength="15"
+        minlength="3"
+        type="text"
+        name="lastName"
+        id="lastName"
+      /><br />
+      <label for="pass">Password</label>
+      <input
+        type="password"
+        name="pass"
+        id="pass"
+        required
+        placeholder="please enter your password"
+      />
+      <br />
+      <label for="phone">Phone number</label>
+      <input max="100" min="10" type="number" name="phone" id="phone" />
+      <br />
+      <label for="b">Birthday</label>
+      <input readonly value="2000-01-01" type="date" name="b" id="b" />
+      <br />
+      <h2>Check, Radio & Select</h2>
+      <input type="checkbox" name="device-1" id="oppo" />
+      <label for="oppo">Oppo</label>
+      <br />
+      <input type="checkbox" name="device-2" id="samsung" />
+      <label for="samsung">Samsung</label> <br />
+      <input type="checkbox" name="device-3" id="iPhone" />
+      <label for="iPhone">iPhone</label>
+      <br />
+      <input type="radio" name="vehicale" id="bike" />
+      <label for="bile">Bike</label>
+      <br />
+      <input type="radio" name="vehicale" id="car" />
+      <label for="car">Car</label>
+      <input type="submit" name="" id="" />
+      <h3>Select</h3>
+      <label for="location">Location Visited</label>
+      <select name="location" id="location">
+        <option value="lahore">Lahore</option>
+        <option value="karachi">Karachi</option>
+        <option value="islamabad">Islamabad</option>
+      </select>
+      <input type="reset" name="" id="" />
+      <br />
+      <button disabled type="submit">Login</button>
+    </form>
+  </body>
+</html>
